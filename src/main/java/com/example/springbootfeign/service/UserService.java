@@ -7,7 +7,7 @@ import com.example.springbootfeign.service.bo.UserResponse;
 
 public interface UserService {
 
-	public ServiceResponse<List<UserResponse>> getAllUsersFromUserClient();
-
 	public ServiceResponse<List<UserResponse>> getAllUsers();
+
+	public ServiceResponse<List<UserResponse>> getAllUsersFromUserClient();
 }

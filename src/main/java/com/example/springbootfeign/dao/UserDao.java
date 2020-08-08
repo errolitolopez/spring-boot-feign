@@ -2,10 +2,10 @@ package com.example.springbootfeign.dao;
 
 import java.util.List;
 
-import com.example.springbootfeign.dao.entity.UserEntity;
+import com.example.springbootfeign.dao.model.User;
 
 public interface UserDao {
 
-	public List<UserEntity> getAllUsers();
+	public List<User> getAllUsers();
 
 }
